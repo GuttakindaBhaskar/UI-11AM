@@ -1,0 +1,184 @@
+<!--
+    <table></table> tag, used to create the tables
+
+    <tr></tr>  tag, used to create tha table row
+
+    <th></th> tag, used to create the table headers.
+
+    <td></td> tag, used to display the table content
+-->
+
+<!--
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tables</title>
+    </head>
+    <body>
+        <table align="center"
+               border="1px"
+               cellspacing="10px"
+               cellpadding="10px"
+               >
+            <tr>
+                <th>P_ID</th>
+                <th>P_NAME</th>
+                <th>P_COST</th>
+            </tr>
+            <tr>
+               <td>111</td>
+               <td>P_ONE</td>
+               <td>10000</td>
+            </tr>
+            <tr>
+               <td>222</td>
+               <td>P_TWO</td>
+               <td>20000</td>
+            </tr>
+            <tr>
+               <td>333</td>
+               <td>P_THREE</td>
+               <td>30000</td>
+            </tr>
+            <tr>
+                <td>444</td>
+               <td>P_FOUR</td>
+               <td>50000</td>
+            </tr>
+            <tr>
+               <td>555</td>
+               <td>P_FIVE</td>
+               <td>50000</td>
+            </tr>
+        </table>
+    </body>
+</html>
+-->
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tables</title>
+        <style>
+            thead{
+                background-color: gray;
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <table align="center"
+               border="2"
+               cellspacing="10px"
+               cellpadding="10px">
+            <thead>
+                <tr>
+                    <th>name</th>
+                    <th>category</th>
+                    <th>image</th>
+                    <th>price</th>
+                    <th>brand</th>
+                    <th>rating</th>
+                    <th>numReviews</th>
+                    <th>description</th>
+                    <th>countInStock</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td rowspan="2">Niki</td>
+                    <td>Shirt</td>
+                    <td><img width="100px" src="https://amazona-ashokit.s3.ap-south-1.amazonaws.com/p1.jpg"></td>
+                    <td>$100</td>
+                    <td>Niki</td>
+                    <td>10</td>
+                    <td>100</td>
+                    <td>This Shirt is Slim</td>
+                    <td rowspan="3">50</td>
+                </tr>
+
+                <tr>
+                    
+                    <td>Shirt</td>
+                    <td><img width="100px" src="https://amazona-ashokit.s3.ap-south-1.amazonaws.com/p2.jpg"></td>
+                    <td>$100</td>
+                    <td>Niki</td>
+                    <td>10</td>
+                    <td>100</td>
+                    <td>This Shirt is Slim</td>
+                    
+                </tr>
+
+
+                <tr>
+                    <td rowspan="3">Niki</td>
+                    <td>Shirt</td>
+                    <td><img width="100px" src="https://amazona-ashokit.s3.ap-south-1.amazonaws.com/p3.jpg"></td>
+                    <td>$100</td>
+                    <td>Niki</td>
+                    <td>10</td>
+                    <td>100</td>
+                    <td>This Shirt is Slim</td>
+                    
+                </tr>
+
+
+                <tr>
+                    
+                    <td>Shirt</td>
+                    <td><img width="100px" src="https://amazona-ashokit.s3.ap-south-1.amazonaws.com/p4.jpg"></td>
+                    <td>$100</td>
+                    <td>Niki</td>
+                    <td>10</td>
+                    <td>100</td>
+                    <td>This Shirt is Slim</td>
+                    <td>50</td>
+                </tr>
+
+
+                <tr>
+                    
+                    <td>Shirt</td>
+                    <td><img width="100px" src="https://amazona-ashokit.s3.ap-south-1.amazonaws.com/p5.jpg"></td>
+                    <td>$100</td>
+                    <td>Niki</td>
+                    <td>10</td>
+                    <td>100</td>
+                    <td colspan="2">This Shirt is Slim <br> 50</td>
+                </tr>
+
+
+                <tr>
+                    <td colspan="2">Niki Shirt</td>
+                    
+                    <td><img width="100px" src="https://amazona-ashokit.s3.ap-south-1.amazonaws.com/p6.jpg"></td>
+                    <td>$100</td>
+                    <td>Niki</td>
+                    <td>10</td>
+                    <td>100</td>
+                    <td>This Shirt is Slim</td>
+                    <td>50</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
