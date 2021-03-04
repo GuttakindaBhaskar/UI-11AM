@@ -1,0 +1,112 @@
+<!--
+    <table> tag, used to create the "tables".
+
+    <tr> tag, used to create the table "rows".
+
+    <th> tag, used to create the "headers".
+
+    <td> tag, used to create the "table content".
+-->
+<!DOCTYPE html>    <!-- html5 version -->
+<html>
+    <head>
+        <title>HTML Tables</title>
+        
+        <style>
+            table{
+                width: 100%;
+            } 
+            table,tr,th,td{
+                border: 1px solid green;
+                border-collapse: collapse;
+            } 
+            th{
+               height: 5rem;
+               background: linear-gradient(45deg,red,black,red,black);
+               color: whitesmoke;
+               vertical-align: bottom;
+            } 
+            td{
+                text-align: center;
+                padding: 1rem;
+            }
+            tr:nth-child(even){
+                background-color: gray;
+                color: whitesmoke;
+            }
+            tr:hover{
+                background-color: rgb(194, 166, 166);
+            }
+            img{
+                border: 1px solid green;
+                border-radius: 1rem;
+            }
+        </style>
+
+    </head>
+    <body>
+        <table>
+            <tr>
+                <th>SNO</th>
+                <th>Name</th>
+                <th>Brand</th>
+                <th>Rating</th>
+                <th>Num Reviews</th>
+                <th>Image</th>
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td>Shirt</td>
+                <td>Niki</td>
+                <td>5</td>
+                <td>10</td>
+                <td><img width="100px" src="https://amazona-ashokit.s3.ap-south-1.amazonaws.com/p1.jpg"></td>
+            </tr>
+            
+            <tr>
+                <td>2</td>
+                <td>Shirt</td>
+                <td>Polo</td>
+                <td>10</td>
+                <td>100</td>
+                <td><img width="100px" src="https://amazona-ashokit.s3.ap-south-1.amazonaws.com/p2.jpg"></td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>Shirt</td>
+                <td>Niki</td>
+                <td>3</td>
+                <td>50</td>
+                <td><img width="100px" src="https://amazona-ashokit.s3.ap-south-1.amazonaws.com/p3.jpg"></td>
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td>Pant</td>
+                <td>Pantaloon</td>
+                <td>5</td>
+                <td>60</td>
+                <td><img width="100px" src="https://amazona-ashokit.s3.ap-south-1.amazonaws.com/p4.jpg"></td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Pant</td>
+                <td>Jeans</td>
+                <td>50</td>
+                <td>600</td>
+                <td><img width="100px" src="https://amazona-ashokit.s3.ap-south-1.amazonaws.com/p5.jpg"></td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Pant</td>
+                <td>Jeans</td>
+                <td>500</td>
+                <td>600</td>
+                <td><img width="100px" src="https://amazona-ashokit.s3.ap-south-1.amazonaws.com/p6.jpg"></td>
+            </tr>
+        </table>        
+    </body>
+</html>
+
