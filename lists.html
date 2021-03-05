@@ -1,0 +1,309 @@
+<!--
+    Lists
+    =====
+        HTML Supports 3 types of lists.
+
+        1) unordered list
+
+        2) ordered list
+
+        3) definition list
+
+        <ul></ul> tag, used to create the "unordered" list
+
+        <ol></ol> tag, used to create the "ordered" list
+
+        <dl></dl> tag, used to create the "definition" list.
+
+        <li></li> tag, used to define the list items.
+
+    unordered list
+    ==============
+    attribute
+
+    type = "disc" / "circle" / "square"
+
+    default type is the "disc"
+
+
+    ordered list
+    ============
+
+    attributes
+
+    1) type = "A" / "a" / "I" / "i"
+
+        default is number
+
+    2) start
+
+    3) reversed
+
+
+
+
+
+
+-->
+
+<!--
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lists</title>
+
+        <style>
+            div{
+                display: inline-block;
+            }
+            ul{
+                list-style-type: none;
+                background: linear-gradient(45deg,red,black,red);
+                margin: 2rem;
+            }
+            li{
+                color: blue;
+                background-color: lightgreen;
+                margin: 1rem;
+                padding: 1rem;
+                border-radius: 1rem;
+            }
+        </style>
+
+
+    </head>
+    <body>
+        <div>
+
+            <div>
+                <h3>
+                    <ul>
+                        <li>VueJS</li>
+                        <li>ReactJS</li>
+                        <li>Angular11</li>
+                        <li>NodeJS</li>
+                        <li>MongoDB</li>
+                    </ul>
+                </h3>
+            </div>
+
+            <div>
+                <h3>
+                    <ul type="circle">
+                        <li>VueJS</li>
+                        <li>ReactJS</li>
+                        <li>Angular11</li>
+                        <li>NodeJS</li>
+                        <li>MongoDB</li>
+                    </ul>
+                </h3>
+            </div>
+
+            <div>
+                <h3>
+                    <ul type="disc">
+                        <li>VueJS</li>
+                        <li>ReactJS</li>
+                        <li>Angular11</li>
+                        <li>NodeJS</li>
+                        <li>MongoDB</li>
+                    </ul>
+                </h3>
+            </div>
+
+            <div>
+                <h3>
+                    <ul type="square">
+                        <li>VueJS</li>
+                        <li>ReactJS</li>
+                        <li>Angular11</li>
+                        <li>NodeJS</li>
+                        <li>MongoDB</li>
+                    </ul>
+                </h3>
+            </div>
+
+        </div>
+    </body>
+</html>
+-->
+
+<!--
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ordered List</title>
+        <style>
+            div{
+                display: inline-block;
+                margin: 1rem;
+            }
+            ol{
+                background-color: saddlebrown;
+                margin: 2rem;
+                border-radius: 2rem;
+                padding: 1.5rem;
+                /* list-style-image: url(star-rate-2010d808529a1072868b06c9daa1657d.png); */
+            }
+            li{
+                color: blue;
+                background-color: salmon;
+                margin: 1rem;
+                padding: 0.5rem;
+                border-radius: 1rem;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <div>
+                <h2>
+                    <ol>
+                        <li>Angular11</li>
+                        <li>ReactJS</li>
+                        <li>VueJS</li>
+                        <li>NodeJS</li>
+                        <li>MongoDB</li>
+                    </ol>
+                </h2>
+            </div>
+
+            <div>
+                <h2>
+                    <ol type="A">
+                        <li>Angular11</li>
+                        <li>ReactJS</li>
+                        <li>VueJS</li>
+                        <li>NodeJS</li>
+                        <li>MongoDB</li>
+                    </ol>
+                </h2>
+            </div>
+
+            <div>
+                <h2>
+                    <ol type="a">
+                        <li>Angular11</li>
+                        <li>ReactJS</li>
+                        <li>VueJS</li>
+                        <li>NodeJS</li>
+                        <li>MongoDB</li>
+                    </ol>
+                </h2>
+            </div>
+
+            <div>
+                <h2>
+                    <ol type="I">
+                        <li>Angular11</li>
+                        <li>ReactJS</li>
+                        <li>VueJS</li>
+                        <li>NodeJS</li>
+                        <li>MongoDB</li>
+                    </ol>
+                </h2>
+            </div>
+
+            <div>
+                <h2>
+                    <ol type="i">
+                        <li>Angular11</li>
+                        <li>ReactJS</li>
+                        <li>VueJS</li>
+                        <li>NodeJS</li>
+                        <li>MongoDB</li>
+                    </ol>
+                </h2>
+            </div>
+
+            <div>
+                <h2>
+                    <ol start="6">
+                        <li>Angular11</li>
+                        <li>ReactJS</li>
+                        <li>VueJS</li>
+                        <li>NodeJS</li>
+                        <li>MongoDB</li>
+                    </ol>
+                </h2>
+            </div>
+
+            <div>
+                <h2>
+                    <ol start="6" reversed>
+                        <li>Angular11</li>
+                        <li>ReactJS</li>
+                        <li>VueJS</li>
+                        <li>NodeJS</li>
+                        <li>MongoDB</li>
+                    </ol>
+                </h2>
+            </div>
+
+        </div>
+    </body>
+</html>
+-->
+
+
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>definition list</title>
+    </head>
+    <body>
+        <dl>
+            <dt>HTML</dt>
+            <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos cum, id a est delectus nihil odit eveniet doloremque dolor tenetur quaerat ducimus officia, saepe illum facere libero, excepturi itaque et architecto at sint numquam dolore sit. Minima vero voluptates labore autem libero officiis ad quo? Dolorum fuga eaque debitis expedita.</dd>
+
+            <dt>CSS</dt>
+            <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, repellat et! Sapiente aut, voluptas voluptatem minima error sed! Facilis, voluptas, quaerat ea illo rem unde doloremque est neque enim eius architecto provident possimus laudantium ducimus adipisci voluptates fugiat, vero nostrum a veniam maiores. Dolorum soluta, perspiciatis hic dicta fugiat dolor!</dd>
+
+            <dt>JavaScript</dt>
+            <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae vitae earum ab ex debitis nam? Nulla voluptas ea libero ducimus!</dd>
+        </dl>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
