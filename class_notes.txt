@@ -1,0 +1,18 @@
+Frames
+======
+    frames are used to include one webpage to another webpage.
+
+*******************************************
+framesEx
+       header.html
+
+       leftmenu.html
+
+       body.html
+
+       rightmenu.html
+
+       footer.html
+
+       frames.html
+*******************************************    
