@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forms</title>
+        <style>
+            div{
+                margin-top: 10px;
+            }
+            select{
+                width: 200px;
+            }
+        </style>
+    </head>
+    <body>
+        <fieldset>
+            <legend>Registration</legend>
+            <form>
+                <!-- First Name -->
+                <div>
+                    <label style="margin-right: 100px;">First Name</label>
+                    <input type="text">
+                </div>
+
+                <!-- Last Name -->
+                <div>
+                    <label style="margin-right: 100px;">Last Name</label>
+                    <input type="text">
+                </div>
+
+                <!-- email -->
+                <div>
+                    <label style="margin-right: 130px;">Email</label>
+                    <input type="email">
+                </div>
+
+                <!-- dob field -->
+                <div>
+                    <label style="margin-right: 110px;">Date of Birth</label>
+                    <input type="date">
+                </div>
+
+                <!-- gender -->
+                <div>
+                    <label style="margin-right: 100px;">Gender</label>
+                    <input type="radio" name="gender" value="male">Male
+                    <input type="radio" name="gender" value="female">Female
+                </div>
+
+                <!-- languages -->
+                <div>
+                    <label style="margin-right: 80px;">Languages</label>
+                    <input type="checkbox" name="languages" value="javascript">
+                    <label>javascript</label>
+
+                    <input type="checkbox" name="languages" value="Angular11">
+                    <label>Angular11</label>
+
+                    <input type="checkbox" name="languages" value="ReactJS">
+                    <label>ReactJS</label>
+
+                    <input type="checkbox" name="languages" value="NodeJS">
+                    <label>NodeJS</label>
+                </div>
+
+                <!-- department -->
+                <div>
+                    <label style="margin-right: 70px;">Department</label>
+                    <select name="department">
+                        <option value="training">Training</option>
+                        <option value="training">Development</option>
+                        <option value="training">Production</option>
+                        <option value="training">Testing</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label style="margin-right: 100px;">Address</label>
+                    <textarea cols="25" rows="10"></textarea>
+                </div>
+
+                <div>
+                    <input type="submit">
+                </div>
+
+            </form>
+        </fieldset>
+    </body>
+</html>
